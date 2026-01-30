@@ -1,5 +1,5 @@
 {
-  "name": "xpm",
+  "name": "x-package-manager",
   "version": "1.0.0",
   "description": "Cross-package-manager executor - automatically detects and runs npm, yarn, or pnpm based on your project",
   "bin": {

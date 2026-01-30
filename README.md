@@ -11,7 +11,7 @@ Tired of remembering which package manager each project uses? `xpm` detects it a
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g xpm
+npm install -g x-package-manager
 ```
 
 ### Standalone Script
