@@ -34,6 +34,9 @@ main() {
     exit 1
   fi
 
+  # Log which package manager is being used
+  echo "Using $pm" >&2
+
   # Execute the package manager with all provided arguments
   exec "$pm" "$@"
 }
