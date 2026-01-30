@@ -7,7 +7,10 @@ detect_package_manager() {
 
   # Walk up the directory tree looking for lock files
   while [[ "$dir" != "/" ]]; do
-    if [[ -f "$dir/pnpm-lock.yaml" ]]; then
+    if [[ -f "$dir/bun.lockb" ]]; then
+      echo "bun"
+      return
+    elif [[ -f "$dir/pnpm-lock.yaml" ]]; then
       echo "pnpm"
       return
     elif [[ -f "$dir/yarn.lock" ]]; then
