@@ -1,0 +1,29 @@
+{
+  "name": "xpm",
+  "version": "1.0.0",
+  "description": "Cross-package-manager executor - automatically detects and runs npm, yarn, or pnpm based on your project",
+  "bin": {
+    "xpm": "./bin/xpm.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "package-manager",
+    "npm",
+    "yarn",
+    "pnpm",
+    "executor",
+    "wrapper"
+  ],
+  "author": "Janic Duplessis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janicduplessis/xpm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/janicduplessis/xpm/issues"
+  },
+  "homepage": "https://github.com/janicduplessis/xpm#readme"
+}
