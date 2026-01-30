@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Cross-package-manager executor - automatically detects and runs npm, yarn, or pnpm based on your project",
   "bin": {
-    "xpm": "./bin/xpm.sh"
+    "xpm": "bin/xpm.sh"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
